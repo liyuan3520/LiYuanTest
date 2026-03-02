@@ -6,6 +6,7 @@ contract EasyToken {
     uint8 public decimals; 
 
     uint256 public totalSupply; 
+    uint256 public haleytest;
 
     mapping (address => uint256) balances; 
     mapping (address => mapping (address => uint256)) allowances; 
